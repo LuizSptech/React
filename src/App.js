@@ -1,4 +1,6 @@
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
 
@@ -8,13 +10,9 @@ function App() {
   //const person = {name: 'luiz', age: 18}
   return (
     <div className="App">
+      <Navbar/>
     <div className="content">
-      <h1>{title}</h1>
-      <p>Liked {likes} times </p>
-      {/*{name} = person*/}
-
-    
-    <a href="{link}">Github</a>
+      <Home/>
     </div> 
     </div>
   );
